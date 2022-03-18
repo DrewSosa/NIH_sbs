@@ -22,30 +22,20 @@
 </head>
 
 <body>
-  <distill-header></distill-header>
+  <!-- <distill-header></distill-header> -->
   <d-front-matter>
     <script id='distill-front-matter' type="text/json">{
-    "title": "Why Momentum Really Works",
+    "title": "Supercharging Biomedical Science at the National Institutes of Health",
     "description": "Although \" extremely useful for visualizing high-dimensional data, t-SNE plots can sometimes be mysterious or misleading.",
-    "published": "Jan 10, 2017",
+    "published": "March 3, 2022",
     "authors": [
       {
-        "author":"Chris Olah",
-        "authorURL":"https://colah.github.io/",
-        "affiliations": [{"name": "Google Brain"}]
-      },
-      {
-        "author":"Ludwig Schubert",
-        "authorURL":"https://shancarter.com/",
-        "affiliations": [{"name": "Google Brain", "url": "https://g.co/brain"}]
-      },
-      {
-        "author":"Shan Carter",
-        "authorURL":"https://shancarter.com/",
+        "author":"Andrew 'Sosa' Sosanya",
+        "authorURL":"https://linkedin.com/in/sosanya/",
         "affiliations": [
-          {"name": "Google Brain", "url": "https://g.co/brain"},
-          {"name": "NYT", "url": "https://nytimes.com"}
-        ]
+          {"name": "Day One Project", "url": "https://dayoneproject.org"},
+          {"name": "Builders of Tomorrow", "url": "https://nytimes.com"}
+      ]
       }
     ],
     "katex": {
@@ -56,25 +46,321 @@
   }</script>
   </d-front-matter>
   <d-title>
-    <figure style="grid-column: page; margin: 1rem 0;"><img src="momentum.png"
+    <figure style="grid-column: page; margin: 1rem 0;"><img src="lightspeed.jpg" width="1200"
+      height="670"
         style="width:100%; border: 1px solid rgba(0, 0, 0, 0.2);" /></figure>
-    <p>We often think of Momentum<d-cite key="mercier2011humans"></d-cite> as a means of dampening oscillations and
-      speeding up the iterations, leading to faster convergence. But it has other interesting behavior. It allows a
-      larger range of step-sizes to be used, and creates its own oscillations. What is going on?</p>
+    <p> The National Insitutes of Health (NIH) forms the backbone of the American biomedical research enterprise.
+        But if the NIH does not diversify its approach to research funding, progress in the field will stagnate.
+        Any renewed commitment to biomedical innovation demands that NIH reconsider how it funds research, what it funds,
+        and who it funds—and to rigorously evaluate its funding processes as well.</p>
   </d-title>
   <d-byline></d-byline>
   <d-article>
     <a class="marker" href="#section-1" id="section-1"><span>1</span></a>
-    <h2>A Brief Survey of Techniques</h2>
-    <p>Before diving in: if you haven’t encountered t-SNE before, here’s what you need to know about the math behind it.
-      The goal is to take a set of points in a high-dimensional space and find a faithful representation of those points
-      in a lower-dimensional space, typically the 2D plane. The algorithm is non-linear and adapts to the underlying
-      data, performing different transformations on different regions. Those differences can be a major source of
-      confusion.</p>
-    <p>This is the first paragraph of the article. Test a long&thinsp;&mdash;&thinsp;dash -- here it is.</p>
-    <p>Test for owner's possessive. Test for "quoting a passage." And another sentence. Or two. Some flopping fins; for
-      diving.</p>
+    <h2>Executive Summary</h2>
+
+    <p>For decades, the National Institutes of Health (NIH) has been the patron of groundbreaking biomedical research in the United States.
+        NIH has paved the way for life-saving gene therapies, cancer treatments, and most recently, mRNA vaccines.
+        More than <a href="https://www.nih.gov/about-nih/what-we-do/budget"> 80% of NIH’s $42 billion budget </a> supports extramural research,
+        including nearly 50,000 grants disbursed to more than 300,000 researchers. </p>
+    <p>
+        But NIH has grown incremental in its funding decisions. The result is a U.S. biomedical-research enterprise
+        discouraged from engaging in the risk-taking and experimentation needed to foster scientific breakthroughs.
+        To maximize returns on its massive R&D budget, NIH should consider the following actions:
+    </p>
     <aside>Some text in an aside, margin notes, etc...</aside>
+    <ul>
+        <li>Form a “Science of Science Funding” Working Group based out of the Advisory Committee to (1) evaluate NIH’s existing funding mechanisms,
+             and (2) pilot several (three to five) novel funding mechanisms.
+             The Working Group should also suggest a structure for evaluating novel funding mechanisms through <a href="https://docs.google.com/document/d/1HpX9Nh1LosgAL1TwJcB2hnUl_BvFio7KA4NccFG_tCI/edit#bookmark=id.j97etwrg53ip">
+             Randomized Control Trials (RCTs), and should recommend ways in which the NIH can expand its capacity
+             for policy evaluation.</a></li>
+        <li>By Fiscal Year 2025, aim to fund one high-risk, high-reward research proposal for every 20 R01 grants awarded by NIH—instead of the <a href="https://www.nih.gov/news-events/news-releases/nih-support-85-new-grants-featuring-high-risk-high-reward-research">one</a> per <a href="https://nexus.od.nih.gov/all/2021/04/21/fy-2020-by-the-numbers-extramural-investments-in-research/#:~:text=The%20average%20grant%20size%20and,5.9%20percent%20increase)%2C%20respectively.">100</a> that it awards today.<d-footnote>Yes, this is not a made up figure.
+        </d-footnote></li>
+        <li>Explicitly dedicate 5% of its extramural research funding to early-career researchers
+            —including new faculty and postdoctoral researchers—and evaluate those researchers’
+            proposals separately from the larger proposal pool.</li>
+    </ul>
+
+    <h2>Challenge and Opportunity</h2>
+
+    <p>Each year, federal science agencies allocate <a href ="https://sgp.fas.org/crs/misc/R46869.pdf"> billions of dollars </a> to launch new research initiatives and to create novel grant mechanisms.
+        But a relatively tiny amount is invested into discerning which funding policies work well.
+        Despite having the requisite data, methods, and technology, science agencies such as NIH do not
+        subject science-funding policies to nearly the same rigor as the funded science itself.</p>
+
+    <p>Another problem plaguing science funding at NIH is that it is difficult for scientists to secure funding for risky but potentially transformative work.
+        When NIH’s peer-review process was designed more than <a href="https://www.google.com/search?q=Research+Funding%3A+the+Case+for+a+Modified+Lottery&oq=Research+Funding%3A+the+Case+for+a+Modified+Lottery&aqs=chrome..69i57j69i60l3.219j0j7&sourceid=chrome&ie=UTF-8">half a century ago </a>, <a href="https://pubmed.ncbi.nlm.nih.gov/27073093/">over half of grant applications</a> to the agency were funded.
+        NIH’s proposal-success rate has dropped to 15% today. Even credible researchers must submit an ever-growing number of proposals in order to have a reasonable chance of securing funding.
+        The result is that scientists spend almost <a href="https://thefdp.org/default/assets/File/Presentations/FDP%20FWS3%20Results%20Plenary%20Jan19%20fnl.pdf">half</a> of their working time on average writing grants
+        —<a href="https://www.vox.com/2016/7/14/12016710/science-challeges-research-funding-peer-review-process#1">time</a> that could otherwise be spent conducting research and training other scientists. To add insult to injury, fewer and fewer young researchers are getting adequate support to do their work.
+        Indeed, it takes fewer years to become an experienced surgeon than it does to launch a biomedical research career and obtain a first R01 grant from NIH (the <a href="https://nexus.od.nih.gov/all/2021/11/18/long-term-trends-in-the-age-of-principal-investigators-supported-for-the-first-time-on-nih-r01-awards/">average</a> age of R01 grantees in 2020 was 44 years).
+        Our nation has created a federally funded research ecosystem that makes scientists beg, fight, and rewrite to do the work they’ve spent years training to do.
+    </p>
+    <p>
+        The U.S. needs a new approach. To catalyze groundbreaking biomedical research—and lead the way for
+        other federal science-funding agencies to follow suit—NIH should reconsider how it funds research, what it funds, and who it funds.
+        The Plan of Action presented below includes recommendations aligned with each of these policy questions.
+    </p>
+    <p>
+      When we place hurdles in front of young scientists, we lose out on empowering our greatest ideas, at the most innovative moments of their career.<d-footnote>Scientific innovation has been linked in a number of studies. See Jones B (2014) Age and Scientific Genius. The Wiley Handbook of Genius, ed Simonton DK (Wiley, Blackwell, NJ);  Simonton DK (1991) Career landmarks in science: Individual differences and interdisciplinary contrasts. Dev Psychol 27(1): 119–130. Stephan PF, Levin SG (1992) Striking the Mother Lode in Science: The Importance of Age, Place, and Time (Oxford Univ Press, New York).</d-footnote>
+      Their ability to get funding hamstrings their ability to set up labs, tackle interesting ideas, and train the generation after them.
+      The careers of young scientists are often judged against their publishing records, which has the pernicious effect of young scientists
+      proposing conversative research that will get them funded. When we optimize for safety instead of impact, young scientists are disincentivized
+      from bringing their best ideas to the table—leaving fresh, unorthodox ideas out in the cold.<d-footnote>Besides the funding conundrum at the NIH, there are other factors of note that weigh against young scientists—such as the increase in longer training periods and the increasingly arduous, resource-scarce path into faculty positions. See “A Generation at Risk: Young Investigators and the Future of the Biomedical Workforce” by Ronald J. Daniels.
+      </d-footnote>
+      Consider this effect multiplied for women and underrepresented minorities.
+      The risky research underpinning mRNA vaccines would <a href="https://www.nytimes.com/2021/04/08/health/coronavirus-mrna-kariko.html">struggle to be funded under today’s</a> peer review system.
+      NIH policymakers have considered the age funding gap as "<a href="https://elifesciences.org/articles/71712#s3">acceptable</a>”.<d-footnote>From the Discussion section of “Inequalities in the distribution of National Institutes of Health research project grant funding” by M. Lauer and D. Roychowdhury:  “One might argue that it may be reasonable for researchers to receive more funding at later career stages as they may have larger networks and are more experienced at posing research questions. Thus, some inequality may be considered ‘acceptable.’"</d-footnote> Our grant-making system is actively biased against innovation—which begs the question, what transformative ideas are we routinely missing out on?
+    </p>
+    <h2>Plan of Action</h2>
+      <p>
+        <u><b>Recommendation 1. Diversify NIH’s grant-funding mechanisms.</b></u>
+        <br>
+        In 2020, privately funded <a href="https://www.nature.com/articles/d41586-021-02111-7">COVID “Fast Grants”</a> accelerated pandemic science by allocating over $50 million in grants awarded within 48 hours of proposal receipt.
+        In a world where grant proposals typically take months to prepare and months more to receive a decision, Fast Grants offered a welcome departure from the norm.
+        The success of Fast Grants signals that federal research funders like the NIH can and must adopt faster, more flexible approaches to scientific grantmaking—an approach
+        that improves productivity and impact by getting scientists the resources they need when they need them.
+      </p>
+      <p>
+        While the Fast Grants has received a great deal of attention for its novelty and usefulness during a crisis, it’s unclear whether the wealth of experimental funding approaches
+        that the NIH has tried—such as its R21 grant for developmental research, or its K99 grant for on-ramping postdoctoral researchers to traditional R01 grant funding—has has positively impacted scientific productivity.
+        The efficacy of these approaches have never been rigorously assessed. NIH must institute mechanisms for evaluating the success of funding experiments to understand how to optimize its resources and stretch R&D dollars as far as possible.
+      </p>
+      <p>
+        As such, <b>the NIH Director should establish a “Science of Science Funding” Working Group within the NIH’s Advisory Committee to the Director</b>. The Working Group should be tasked with (1) evaluating the efficacy of existing funding mechanisms
+        at the NIH and, (2) piloting several (three to five) experimental funding mechanisms. The Working Group should also suggest a structure for evaluating <a href="https://www.nature.com/articles/484031a">existing and novel funding mechanisms</a> through Randomized Control Trials (RCTs), and should recommend ways
+        in which the NIH can expand its capacity for policy evaluation (see FAQ for more on RCTs).
+        <!-- How to self reference within an HTML document? -->
+      </p>
+      <p>
+        <u><b>Novel funding mechanisms that the Working Group could consider include:</b></u>
+        <ul>Establishing a <a href="https://www.nature.com/articles/d41586-021-02111-7">“fast-grant”</a> funding track that awards select grants to scientists within weeks, not months, of proposal submission.</ul>
+        <ul><a href="https://dirnagl.com/2019/04/13/enter-the-funding-lottery/">Funding grant lotteries</a> that select a small percentage of pre-screened and well-qualified grant applications at random for funding.</ul>
+        <ul>Creating a public-private “marketplace of funders” (comprising non-NIH grantmakers (such as the Howard Hughes Medical Institute or the Gates Foundation) to which researchers can opt into having their grant proposal automatically submitted if not funded by the NIH.</ul>
+        <ul>Awarding large (on the order of $5–15 million) project grants designed to create <a href="https://www.dayoneproject.org/post/focused-research-organizations-to-accelerate-science-technology-and-medicine">focused research organizations</a> that develop a fundamental tool, platform technology, scientific dataset, or a refined process or resource that would dramatically accelerate progress in the biomedical field.</ul>
+        <ul>Eliminating grant deadlines. In the last five years, NSF removed proposal deadlines from <a href="https://www.science.org/content/article/no-pressure-nsf-test-finds-eliminating-deadlines-halves-number-grant-proposals">several</a> of <a href="https://www.nsf.gov/pubs/2018/nsf18011/nsf18011.jsp">its</a> <a href="https://www.nsf.gov/pubs/2018/nsf18082/nsf18082.jsp">directorates</a>. NSF concluded that the policy change gave investigators more time to build strong collaborations and to think more creatively without the pressure and burden of a deadline, leading to an improved quantity of high-quality proposals. NIH should consider doing the same.</ul>
+        <ul>Leveraging <a href="https://www.nature.com/articles/s41587-021-00907-6"></a>artificial intelligence to help identify high-impact research and guide funding decisions. While computers should not make funding decisions alone, data-driven algorithms can help grantmakers identify promising proposals and can help policymakers determine how to structure and where to focus calls for funding.</ul>
+      </p>
+      <p>
+        This Working Group should be chaired by the incoming Director of Extramural Research and should include other NIH leaders (such as the Director of the Office of Strategic Coordination and the Director of the Office of Research Reporting and Analysis) as participants.
+        The Working Group should also include members from other federal science agencies such as NSF and NASA. The Working Group should include and/or consult with diverse faculty at all career stages as well. Buy-in from the NIH director is crucial for this group to enact transformative change.
+        It should be noted that the effectiveness of this group to enact change depends on how much buy-in the NIH Director has.
+      </p>
+      <p>
+        Lastly, the working group should seek to open up NIH up to outside evaluation by the public. Full access to grantmaking data and the corresponding outcomes could unlock transformative insights that holistically uplift the biomedical community. While NIH has a better track record of sharing than other agencies,
+        there is still a long way to go. This means putting the data on grant applicants in an open-census database (with privacy-preserving properties) so that it can be analyzed and merged with other relevant datasets, informing decision-making. Furthermore, NIH does not have the capacity to do all the evaluation themselves,
+        and so open access paves the way for other groups to augment the NIH’s work, as well as keep the NIH accountable for its programmatic outcomes.
+      </p>
+      <p>
+        <u><b>Recommendation 2. Foster a culture of scientific risk-taking by funding more high-risk, high-reward grants.</b></u>
+        <br>
+        Uncertainty is a hallmark of breakthrough scientific discovery. The research that led to rapid development of mRNA COVID vaccines, for instance, would have <a href="https://www.nytimes.com/2021/04/08/health/coronavirus-mrna-kariko.html">struggled to get funded</a> through traditional funding channels.
+        NIH has taken some admirable steps to encourage risk-taking. Since 2004, NIH has rolled out a set of High-Risk, High-Reward (HRHR) grant-funding mechanisms, as summarized in Table 1. The agency’s evaluations have found that its HRHR grants have <a href="https://commonfund.nih.gov/sites/default/files/HRHR%20PA%20FY%202004-2006%20Outcome%20Evaluation.pdf">led to increased scientific productivity</a> relative to other grant types.
+        Yet HRHR grants account for a vanishingly small percentage of NIH’s extramural R&D funding. Only 85 HRHR grants were awarded in all of 2020, compared to 7,767 standard R01 grants awarded in the same year (see Table 1). Such disproportionate allocation of funds to safe and incremental research <a href="https://www.nber.org/papers/w18116">largely yields</a> safe and incremental results. Additionally, it should be noted that designating specific programs “high-risk, high-reward”
+        does not necessarily guarantee that those programs are funding high-risk, high-reward research in reality.
+      </p>
+      <table style="width:75%">
+        <tr>
+          <th>Award</th>
+          <th>Purpose</th>
+          <th>Funding Amount ($)</th>
+          <th># Awarded in 2020</th>
+        </tr>
+        <tr>
+          <td>New Innovator Award</td>
+          <td>For exceptionally creative early career scientists proposing innovative, high-impact projects</td>
+          <td>1.5M/5yrs</td>
+          <td>53</td>
+        </tr>
+        <tr>
+          <td>Pioneer Award</td>
+          <td>Individuals of exceptional creativity proposing pioneering approaches, at all career stages</td>
+          <td>3.5M/5yrs</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>Transformative Research Award</td>
+          <td>Individuals or teams proposing transformative research that may require very large budgets</td>
+          <td>No funding cap</td>
+          <td>9</td>
+        </tr>
+        <tr>
+          <td>Early Independence Award</td>
+          <td>Outstanding junior scientists wishing to "skip the postdoc" and immediately begin independent research</td>
+          <td>250K/year</td>
+          <td>12</td>
+        </tr>
+        <tr>
+          <td>R01 Investigator<d-footnote>This is NIH's flagship grant.</d-footnote></td>
+          <td>For mature research projects that are hypothesis-driven with strong preliminary data</td>
+          <td>250K/year</td>
+          <td>7767</td>
+        </tr>
+      </table>
+      <p>
+        <u><b>It is time for the NIH to actively foster a culture of scientific risk-taking. The agency can do this by balancing funding relatively predictable projects with projects that are riskier but have the potential to deliver greater returns.</b></u>
+      </p>
+      <p>
+        Specifically, NIH should:
+        <ul>
+          <u>Strive to shift its HRHR to R01 ratio from 1:100 to 1:20 by FY 2025.</u> Like an investor who mixes reliable blue-chips with riskier growth stocks, NIH should take a portfolio-based approach to balancing lower- and higher-risk research.
+          One HRHR domain that NIH could focus on is increasing investments in developing platform technologies, such as advanced equipment, data-analysis tools, and specialized analysis techniques that support biomedical advances broadly (See FAQ for more on platform technologies).
+          Multiple NIH-funded <a href="https://www.nih.gov/about-nih/what-we-do/nih-almanac/nobel-laureates">Nobel Prize winners</a> have won the award for platform technologies (including CRISPR-Cas9, cryo-electron microscopy, and phage display) that have fundamentally shifted the way scientists approach problem solving. Without investing deeply in platform technologies, our nation risks continuing its piecemeal approach to solving pressing challenges.
+        </ul>
+        <ul><u>Experiment with a new exploratory HRHR grant.</u><d-footnote> This grant could combine the best features of the MERIT (R37) and Pioneer Award mechanisms.</d-footnote>This grant would include a time horizon of 8–10 years, with an intermediary review after five years.
+          The grant would use a set of evaluation criteria that emphasizes risk-taking rather than robust preliminary results. The grant would also include a renewal mechanism that incentivizes awardees to conduct revolutionary work in their fields, and should be subject to rigorous evaluation.
+          This type of grant would take on a more exploratory and curiosity-driven flavor than the solutions-oriented research—research directed at solving a practical problem—that would be funded under the forthcoming <a href="https://www.nih.gov/arpa-h">Advanced Research Projects Agency-Health</a>.
+        </ul>
+        <ul>
+          <u>Revisit high-variance proposal evaluations and explore a “golden ticket” model of proposal evaluation.</u> NIH’s peer-review process for grant proposals typically averages evaluation scores—a choice that drives award decisions towards consensus but creates bias against riskier proposals.
+          Riskier proposals are more likely to garner negative reviews because <a href="https://www.nber.org/papers/w26889">“they don’t fit neatly within established scientific paradigms”</a> that the peer-review process favors. One way to identify and capture HRHR research through traditional funding channels is to identify grants that have high
+          variance in evaluator scores—an indicator of healthy disagreement. Another option is for NIH to experiment with a <a href="https://www.nature.com/articles/d41586-018-02743-2">“golden-ticket” model</a> wherein a proposal can be greenlighted under peer review if a single reviewer strongly advocates for it. To avoid abuse, golden tickets allocated in limited numbers amongst reviewers,
+          commensurate with the funding payline for a study section. The selection process for NIH’s Transformative Research Award serves as a precedent for this model, which NIH policymakers can build upon and and should be pilot in other grant programs.<d-footnote>National Institutes of Health (2011) <a href="https://commonfund.nih.gov/sites/default/files/Bowers-Transcript-Format-EBBKW.pdf">Transcript for Review Process for Transformative Research Award Applications</a>, John Bowers, New Funding Opportunity for the NIH Director’s Transformative Research Award (National Institutes of Health, Bethesda, MD).</d-footnote>
+        </ul>
+        <ul>
+          <u>Pilot post-award project management for 100 funded high-risk research proposals.</u> Post-award program management (PPM) is a practice wherein funders are involved choosing collaborators, determining intermediate milestones, and conducting ongoing monitoring. If a project is not meeting milestones, the funders <a href="https://www.nber.org/papers/w26889">may choose</a> to terminate it early.
+            When combined with high upfront risk tolerance, PPM can ensure that public research dollars are being well spent. PPM also allows funders to shape scientists’ research trajectories by choosing whether and how to conduct reviews for grant renewal, and the extent to which to reward risk-taking as part of intermediate evaluations.
+        </ul>
+        <!-- How to self reference within an HTML document? -->
+
+      </p>
+
+
+      <p>
+        <u><b>Recommendation 3. Better Support early-career scientists</b></u>
+        <br>
+        NIH can supercharge the biomedical R&D ecosystem by increasing opportunities to embrace newer investigators bringing bold, fresh approaches to science.
+        From 1998 to 2014,  NIH allocated <a href="https://nexus.od.nih.gov/all/2015/03/25/age-of-investigator/">seven times more R01 funding</a> to scientists who are older than 65 years old than it did to scientists under 35.
+        The <a href="https://nexus.od.nih.gov/all/2021/11/18/long-term-trends-in-the-age-of-principal-investigators-supported-for-the-first-time-on-nih-r01-awards/">average age of R01 grantees</a> in 2020 was 44 years; in other words, it takes fewer years to become an experienced surgeon than it does to launch a biomedical
+        research career and obtain a first R01 grant. This paradigm leaves promising early-career researchers scrambling for alternative funding sources, or causes them to change careers entirely.
+        Postdoctoral researchers in particular <a href="https://www.google.com/search?q=How+to+exploit+postdocs&rlz=1C5CHFA_enUS782US783&oq=How+to+exploit+postdocs&aqs=chrome..69i57.185j0j4&sourceid=chrome&ie=UTF-8">struggle</a> to have their ideas funded.
+      </p>
+      <p>
+        NIH has attempted to alleviate funding disparities through some grants—R00, R03, K76, K99, etc.—targeted at younger scientists. However, these grants represent metaphorical “dead ends” that do not provide adequate onramps to NIH’s “bread and butter” R01 grants.
+      </p>
+
+      <p>
+        <b>NIH should better support early-career researchers by:</b>
+        <ul>
+          <u>Explicitly dedicating 5% of its extramural research funding to young researchers,</u> including new faculty and postdoctoral researchers. Evaluation of grant proposals from these researchers should be separated from the larger application pool. By providing a dedicated funding pathway for early-career scientists,
+          NIH will ensure a healthy pipeline of talent and ideas. While the success of funding earmarked for specific groups can’t be rigorously evaluated through an RCT, NIH should still create a set of metrics to evaluate whether dedicated funding is working as intended to boost retention and creativity in the federally funded biomedical ecosystem.
+        </ul>
+        <ul><u>Expanding funding for young researchers from underrepresented backgrounds.</u> For instance, NIH could create a <a href="https://www.coalitionforlifesciences.org/beyond-2020-a-vision-and-pathway-for-nih/">"Scientists of the Future"</a> grant program that provides support for promising underrepresented scientists at the postdoctoral level.
+          The <a href="https://www.hhmi.org/programs/hanna-h-gray-fellows-program">Hanna H. Gray Fellows Program</a> at the Howard Hughes Medical Institute could act as a model for such a program.
+        </ul>
+        <ul>
+          <u>Experimenting with non-traditional metrics in peer-review processes.</u> One reason that older scientists tend to receive more grants is that the peer-review process places emphasis on previous citations (or a derivative thereof, such as the h-index) as a predictor of success. This hurts the chances for younger investigators, who have had less time to publish.
+          NIH should therefore instruct peer-review panels to also consider other indicators of merit, such as:
+          <ul>
+            Whether an applicant has developed a key dataset or tool that dramatically advances their field.
+          </ul>
+          <ul>
+            Whether an applicant holds patents for inventions and/or has substantially commercialized prior research.
+          </ul>
+          <ul>
+            The broader impacts of the proposed work. For instance, the NIH could follow the NSF in incorporating a <a href="https://www.nsf.gov/od/oia/special/broaderimpacts/">Broader Impacts</a> criterion into its grant-review processes.
+          </ul>
+
+        </ul>
+        <ul>
+          <u>Holding principal investigators (PIs) accountable for training outcomes.</u> <a href="https://www.dayoneproject.org/post/improving-graduate-student-mentorship-by-investing-in-traineeship-grants">Improving training outcomes is
+            holistically beneficial for the U.S. research ecosystem</a>, but there is little data on the availability of training and mentorship opportunities, or on how effective the opportunities that do exist are. Moreover, PIs have few incentives to invest in training and mentorship. NIH currently has a set of institutional training grant programs that are subject to evaluations,
+            but they are few and far between and not nearly comprehensive enough to meaningfully help the thousands of NIH-funded scientists in training. NIH can act to remedy these problems by embedding training and mentorship into the evaluation criteria for the agency’s flagship R01 grants.
+        </ul>
+        <!-- How to self reference within an HTML document? -->
+
+      </p>
+
+
+      <h2>Conclusion</h2>
+      <p>
+          NIH funding forms the backbone of the American biomedical research enterprise. But if the NIH does not diversify its approach to research funding, progress in the field will stagnate. Any renewed commitment to biomedical innovation demands
+          that NIH reconsider how it funds research, what it funds, and who it funds—and to rigorously evaluate its funding processes as well.
+      </p>
+      <p>The federal government spent about <a href="https://sgp.fas.org/crs/misc/R46869.pdf">$160 billion</a> on scientific R&D in 2021.<d-cite bibtex-key="mercier2011humans"></d-cite>
+        . It is shocking that it doesn’t routinely seek to optimize how those dollars are spent.
+        While this memo focuses on the NIH, the analysis and recommendations contained herein are broadly applicable to other federal agencies with large
+        extramural R&D funding operations, including the National Science Foundation; the Departments of Defense, Agriculture, NASA, Commerce; and others.
+        Increasing funding for science is a necessary but not sufficient part of catalyzing scientific progress.
+        The other side of the coin is ensuring that research dollars are being spent effectively and optimizing return on investment.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <p>
+          <b>
+              Are RCTs the only way for the NIH to effectively evaluate funding mechanisms? Aren’t RCTs expensive and time-consuming?
+          </b>
+          <br>
+          To really understand what works and what doesn’t, NIH must consider how to evaluate the success of existing and novel funding mechanisms. MIT economist Pierre Azoulay suggests that the NIH can systematically build out a knowledge base of
+          what funding mechanisms are effective by <a href="https://www.nber.org/papers/w18116">“turning the scientific method on itself”</a> using <a href= "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6235704/">RCTs</a>, the “gold standard” of evaluation methods. NIH could likely launch a suite of RCTs that would evaluate multiple funding mechanisms at scale with minimal disruption for around $250,000 per year for five years—a small investment relative to the value of knowing what types of funding work.
+          RCTs can be <a href="https://www.arnoldventures.org/stories/why-government-needs-more-randomized-controlled-trials-refuting-the-myths-2/">easier to implement</a> than is often thought.<d-footnote>For more on this topic, see <a href="https://www.arnoldventures.org/stories/why-government-needs-more-randomized-controlled-trials-refuting-the-myths-2/">Why Government Needs More Randomized Controlled Trials: Refuting the Myths from the Arnold Foundation.</a></d-footnote>
+          That said, NIH would be wise to couple RCTs with less ambitious mechanisms for evaluating funding mechanisms, such as a two-step approach that filters out applicants and then applies narrower criteria based on the remaining pool to filter a second time for the most competitive or prioritized applicants.
+          Even just collecting and comparing data on NIH grant applicants—data such as education level, career stage, and prior funding history—would provide insight into whether different funding interventions are affecting the composition of the applicant pool.
+
+      </p>
+      <p>
+          <b> Isn’t the NIH one of the government’s premier research institutions? Is it really doing such a bad job funding research?
+          </b>
+          <br>
+          NIH funding certainly supports an extensive body of high-quality, high-impact work. But just because something is performing acceptably
+          doesn’t mean that there are not still improvements to be made. As outlined in this memo, there is good reason to
+          believe that static funding practices are preventing the NIH from maximizing returns on its investments in biomedical research.
+          NIH is the nation’s crown jewel of biomedical research. We should seek to polish it to its fullest shine.
+      </p>
+      <p>
+        <b> How does the proposed “Science of Science Funding” Working Group differ from the ACD Working Group on High-Risk, High-Reward Programs?
+        </b>
+        <br>
+        The <a href="https://www.acd.od.nih.gov/working-groups/hrhr.html">ACD Working Group on HRHR programs</a> <a href="https://www.acd.od.nih.gov/documents/presentations/06132019HRHR_B.pdf">reviewed</a>“the effectiveness of distinct NIH HRHR research programs that emphasize exceptional innovation.”
+        This working group only focuses on evaluating a couple of HRHR programs, which form a trivial portion of grantmaking compared to the rest of the extramural NIH funding apparatus.  The Science of Science Funding Working Group would focus on building capacity to evaluate the efficacy of existing funding mechanisms at the NIH and execute on several (three to five) experimental funding mechanisms or substantial modifications to existing mechanisms.
+        <br>
+        Compared to traditional R01s, the working group agrees that HRHR programs bring value, but NIH did not choose to dramatically increase the amount of HRHR awards. Two years after the conclusion of the report, NIH still funds HRHR research at a ridiculously low level.
+        Only 85 HRHR grants were awarded in all of 2020, compared to 7,767 standard R01 grants awarded in the same year.<d-footnote>< R01 grants are awarded to mature research projects that are hypothesis-driven and have generated strong preliminary data. R01s provide up to five years of support per project.</d-footnote>
+      </p>
+      <p>
+        <b> What are platform technologies?
+        </b>
+        <br>
+        <a href="https://obamawhitehouse.archives.gov/realitycheck/blog/2014/09/19/identifying-breakthrough-life-science-research-technologies">Platform technologies</a> are tools, techniques, and instruments that are applicable to many areas of research, enabling novel approaches for scientific investigation that were not previously possible. Platform technologies often generate orders of magnitude improvements over current abilities
+        in fundamental aspects such as accuracy, precision, resolution, throughput, flexibility, breadth of application, costs of construction or operation, or user-friendliness.
+        <br>
+        While they have different levels of relevance to the life sciences, the following are examples of platform technologies:
+        <ul>
+          Polymerase chain reaction (PCR)
+        </ul>
+        <ul>CRISPR-Cas9</ul>
+        <ul>Cryo-electron microscopy</ul>
+        <ul>Phage Display</ul>
+        <ul>Charge-coupled device (CCD) sensor</ul>
+        <ul>Fourier transforms</ul>
+        <ul>Atomic force microscopy (AFM) and scanning force microscopy (SFM)</ul>
+        <br>
+        There has been an appetite to fund more platform technologies. The recently announced ARPA-H seeks to achieve medical breakthroughs and directly impact clinical care by building new platform technologies. During the Obama Administration,
+        OSTP hosted a <a href="https://obamawhitehouse.archives.gov/realitycheck/blog/2014/09/19/identifying-breakthrough-life-science-research-technologies"></a>platform technologies ideation contest during the Obama Administration. Although multiple <a href="https://www.nih.gov/about-nih/what-we-do/nih-almanac/nobel-laureates">NIH-funded Nobel Prize winners</a>
+        have won the award for platform technologies that have fundamentally shifted the way scientists approach problem solving, not enough emphasis is placed on their development. Without investing deeply in platform technologies, our nation risks continuing its piecemeal approach to solving pressing challenges.
+      </p>
+
+
+      <h2>
+        <i>About the Author</i>
+      </h2>
+      <p>
+        <b>Andrew "Sosa" Sosanya</b> is passionate about exploring the impacts of technology and innovation on our society. Currently he is a machine learning engineer and founder of the nonprofit <b>Builders of Tomorrow</b>, a community of technologists focused on building public goods. Previously, he worked as a Policy Analyst for the Day One Project,
+        where he built a platform for science and tech policy ideas. At the Day One Project, Sosa helped develop ambitious and actionable policy ideas on issues such as reforming the $700B+ defense budget, electrifying the aviation ecosystem, and training diverse scientists.
+        <br>
+      </p>
+      <p>
+        Prior to the Day One Project, Sosa worked as an avid researcher, studying topics in physics, artificial intelligence, and national security. In 2020, his senior thesis on the rise of autonomous weapons and militarized AI won Dartmouth’s Chase Peace Prize and was subsequently published in the Peace Review Journal of Social Justice. In 2018, Sosa was an Astrophysics Fellow in Caltech’s NASA NuStar Group, researching ultra-bright neutron stars. Sosa graduated from Dartmouth College in 2020 with an honors B.A. in Physics & Government modified with Computer Science.
+      </p>
+
+
+
+
+
+
+
+    <p>This is the first paragraph of the article. Test a long&thinsp;&mdash;&thinsp;dash -- here it is.</p>
+
     <p>Here's a test of an inline equation <d-math>c = a^2 + b^2</d-math>. Also with configurable katex standards just
       using inline '$' signs: $$x^2$$ And then there's a block equation:</p>
     <d-math block>
@@ -119,9 +405,10 @@
         <table>
           <thead>
             <tr>
-              <th>First</th>
-              <th>Second</th>
-              <th>Third</th>
+              <th>Sosa</th>
+              <th>is</th>
+              <th>so</th>
+              <th>Cool!</th>
             </tr>
           </thead>
           <tbody>
@@ -171,9 +458,9 @@
   <d-appendix>
 
     <h3>Contributions</h3>
-    <p>Some text describing who did what.</p>
+    <p>Written by Andrew Sosanya, with helpful edits from Hannah Safford.</p>
     <h3>Reviewers</h3>
-    <p>Some text with links describing who reviewed the article.</p>
+    <p>Robbie Barbero, Dan Correa, Ishan Sharma, Hannah Safford, Erica Goldman, Danny Goroff, Pierre Azoulay.</p>
 
     <d-bibliography src="bibliography.bib"></d-bibliography>
   </d-appendix>
